@@ -7,10 +7,12 @@ public class Task {
     String status;
 
     public Task(String title, String description, int id, String status) {
+        
         this.title = title;
         this.description = description;
         this.id = id;
         this.status = status;
+
         System.out.println(title + description + id + status);
     }
 
